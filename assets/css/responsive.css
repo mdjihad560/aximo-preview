@@ -11,6 +11,15 @@
     font-size: 80px;
   }
 
+  h2,
+.h2 {
+  font-size: 52px;
+}
+
+.aximo-cta-section::before{
+  content: none;
+}
+
 
 }
 
@@ -19,7 +28,13 @@
   .aximo-logo{
     left: 0;
   }
-
+  .aximo-service-column {
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .aximo-menu {
+    padding: 20px 0 10px;
+}
 
 }
 
@@ -41,19 +56,35 @@
 }
 
 .section-padding{
-  padding: 100px 0 70px;
+  padding: 80px 0 50px;
 }
-.section-padding2{
-  padding: 100px 0;
+.section-padding2, 
+.aximo-cta-section{
+  padding: 80px 0;
 }
 .aximo-section-title{
-  padding-bottom: 70px;
+  padding-bottom: 60px;
+  text-align: center;
 }
-.aximo-default-content{
+.aximo-section-title h2{
+  margin-bottom: 24px;
+}
+.aximo-demos-wrap{
+  margin-bottom: 30px;
+}
+
+.aximo-cta-content{
   text-align: center;
 }
 .aximo-footer-top h2{
   font-size: 48px;
+}
+.aximo-video-dection {
+  padding-bottom: 80px;
+}
+
+.aximo-service-icon{
+  margin-bottom: 20px;
 }
 .aximo-footer-top{
   padding-bottom: 100px;
@@ -83,14 +114,23 @@ h2, .h2{
 }
 
 .section-padding{
-  padding: 80px 0 50px;
+  padding: 60px 0 30px;
 }
-.section-padding2{
-  padding: 80px 0;
+.section-padding2, 
+.aximo-cta-section{
+  padding: 60px 0;
 }
 .aximo-section-title{
   padding-bottom: 50px;
 }
+.aximo-video-dection {
+  padding-bottom: 60px;
+}
+.aximo-service-column {
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
 .aximo-footer-top h2{
   font-size: 36px;
   margin-bottom: 25px;
@@ -101,13 +141,14 @@ h2, .h2{
 .aximo-footer-section{
   padding: 75px 0 30px;
 }
+.w_50{
+  width: 50%;
+}
 
 }
 
 @media (max-width: 575px) {
-  .w_33{
-    width: 33%;
-  }
+
   .aximo-menu ul li{
     margin: 0 5px;
   }

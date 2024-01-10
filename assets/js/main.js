@@ -19,6 +19,18 @@
   
   $(function(){
 
+/*--------------------------------------------------------------
+AXIMO STICKY MENU JS INIT
+--------------------------------------------------------------*/
+$(window).on('scroll', function(){
+  if ($(window).scrollTop() > 50) {
+      $('#sticky-menu').addClass('sticky-menu');
+  } else {
+      $('#sticky-menu').removeClass('sticky-menu');
+  }
+
+});
+
 
 /*--------------------------------------------------------------
 fugu PRICING TABLE JS INIT
